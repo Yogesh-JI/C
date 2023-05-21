@@ -1,9 +1,8 @@
 #include<stdio.h>
 #include<conio.h>
-
 int main()
 {
-	int i;
+	int i ,j;
 	for(i=1;i<=3;i+=1)
 	{
 		
@@ -13,8 +12,9 @@ int main()
 			{
 				continue;
 			}
-			
+			printf("%d\n",j);
+			// printf("hi bro");
 		}
-		printf("%d\n",j);
+		
 	}
 }
